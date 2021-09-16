@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import {Landing, About, Portfolio, Contact, Footer, Loading} from './components'
+import Modal from './components/Modal'
+import {useState, useEffect} from 'react'
 
-function App() {
+const App = () => {
+  const [open, setOpen] = useState(false)
+  const [loaded, setLoaded] = useState(false)
+  useEffect(() =>{
+    setTimeout(() =>{
+      fetch("https://jsonplaceholder.typicode.com/users")
+      .then(res => res.json())
+      .then(json =>{
+        console.log(json)
+        setTimeout(()=>{
+          setLoaded(true)
+        }, 3000)
+      })
+    }, 1000)
+  }, [setLoaded, loaded])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-blue body">
+      {!loaded ? <Loading/> : <></>}
+      <Modal open={open} setOpen={setOpen}/>
+      <Landing open={open} setOpen={setOpen}/>
+      <About/>
+      <Portfolio/>
+      <Contact open={open} setOpen={setOpen}/>
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
