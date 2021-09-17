@@ -21,7 +21,9 @@ module.exports = {
         body: "#000000",
         blue: '#0063A3',
         green: '#0F9200',
-        pink: '#E528DD'
+        red: '#E53F2B',
+        pink: '#E528DD',
+        yellow: '#F6AC29'
       },
       fontFamily: {
         'title': ['Barlow Condensed', 'serif'],

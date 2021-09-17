@@ -15,7 +15,7 @@ const Footer = () => {
                     <p className="font-body text-subtitle medium text-smd">Made and designed by Joseph Cano</p>
                 </div>
                 <div>
-                    <a href="https://github.com"><img src="./github.png" alt="" className="max-h-20" /></a>
+                    <a href="https://github.com/Jcanotorr06/Portfolio"><img src="./github.png" alt="" className="max-h-20" /></a>
                 </div>
 
             </div>

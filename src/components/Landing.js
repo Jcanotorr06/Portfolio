@@ -1,7 +1,6 @@
 import React from 'react'
 import Brain from './Brain'
 import Nav from './Nav'
-import Modal from './Modal'
 
 const Landing = ({open, setOpen}) => {
     return (
@@ -12,7 +11,7 @@ const Landing = ({open, setOpen}) => {
                 <div className="flex flex-col">
                     <h5 className="font-subtitle text-subtitle">Hi, this is Joseph Cano's</h5>
                     <h1 className="font-title text-title z-10 text-13xl leading-none">PORTFOLIO</h1>
-                    <h5 className="font-subtitle text-subtitle text-right">Frontend Developer</h5>
+                    <h5 className="font-subtitle text-subtitle text-right">FullStack Developer</h5>
                 </div>
             </div>
             <div className="px-4 py-5 scrollContainer">
@@ -29,8 +28,6 @@ const Landing = ({open, setOpen}) => {
                     </svg>
                 </div>
             </div>
-            
-            <Modal open={open} setOpen={setOpen}/>
         </div>
     )
 }

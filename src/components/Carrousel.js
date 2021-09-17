@@ -11,6 +11,7 @@ const Tags = () =>{
             autoPlay 
             autoPlaySpeed={5} 
             infinite 
+            draggable={false}
             slidesToSlide={1}
             customTransition="all 1s linear"
             containerClass="container"
@@ -42,75 +43,153 @@ const Tags = () =>{
 
             }}>
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/480px-HTML5_logo_and_wordmark.svg.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/commerce.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/css.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/express.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://nextsoftware.io/files/images/logos/main/reactjs-logo.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/fastify.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/git.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/640px-MongoDB-Logo.svg.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/html.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://www.iexcel-technologies.com/wp-content/uploads/2020/03/rest-api-logo.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/js.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/mongo.png"
                     style={{
                     display: 'block',
                     maxHeight: '50%',
                     margin: 'auto',
-                    maxWidth: '100%'
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/nextjs.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/node.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/pwa.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/react.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/strapi.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/tailwind.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/ts.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
                     }}
                 />
             </Carousel>

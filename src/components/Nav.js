@@ -16,7 +16,7 @@ const Nav = ({setOpen, open}) => {
             <a href={window.location.pathname}>
                 <img src="/jclogo.png" alt="duck logo" width='50px' height='70px'/>
             </a>
-            <button type="button" className="font-util font-normal text-subtitle color-white border-2 rounded p-2 hover:bg-white hover:text-blue" onClick={() => setClicked(true)}>Contact Me</button>
+            <a href="mailto: josephct06@gmail.com" className="font-util font-normal text-subtitle color-white border-2 rounded p-2 hover:bg-white hover:text-blue">Contact Me</a>
         </div>
         
     )

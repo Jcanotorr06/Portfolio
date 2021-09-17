@@ -9,16 +9,10 @@ const Me = () => {
                 <h2 className="font-title text-title text-7xl">Hey, I'm Joseph</h2>
                 <div>
                     <p className="text-subtitle font-body text-2xl mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sapien tempor commodo velit est adipiscing lectus. Mus
-                        consequat laoreet amet tristique adipiscing elit.
-                        Pellentesque purus amet, donec varius aliquam tempus mi.
+                    You can call me designer, developer, programmer, engineer or any other market defined function-title. I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
                     </p>
                     <p className="text-subtitle font-body text-2xl">
-                        Duis massa, egestas id enim, ac vel amet, at facilisis.
-                        Accumsan rhoncus nisl, mauris enim sed justo vel. Ut feugiat
-                        consectetur eleifend malesuada. Nunc urna aliquam dolor
-                        dictumst mauris, vel. Enim curabitur lectus sit cras sed. Nisi
+                    Fueled by high energy levels and boundless enthusiasm, I’m easily inspired and more then willing to follow my fascinations wherever they take me. I’m passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire. I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.
                     </p>
                 </div>
             </div>
