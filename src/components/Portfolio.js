@@ -5,9 +5,18 @@ const dumpsterfire = {
     link: 'https://dumpsterfireblog.netlify.app/',
     image: 'https://raw.githubusercontent.com/Jcanotorr06/images/main/Proyects/dumpsterfire.png',
     github: 'https://github.com/Jcanotorr06/dumpsterfireTS',
-    color: 'green',
+    color: 'red',
     skills: 'NEXTJS • TAILWINDCSS • TYPESCRIPT • STRAPI • MONGODB',
     description: 'Dumpster Fire is my personal blog web site.The front end was built with Next JS, Typescript and styled with Tailwind CSS and animated with Framer Motion, while the backend was built using Strapi JS as a headless CMS built and deployed separately and MongoDB for cloud storage.'
+}
+
+const paguelofacil = {
+    title: 'PagueloFacil Dashboard',
+    link: 'https://comercios.paguelofacil.com/',
+    image: 'https://raw.githubusercontent.com/Jcanotorr06/images/main/Proyects/paguelofacil.png',
+    color: 'green',
+    skills: 'REACTJS • REDUX • SASS • BOOTSTRAP • JAVASCRIPT • REST API',
+    description: 'The PagueloFacil Merchant\'s Dashboard is a robust SPA built with React JS and styled with SCSS and bootstrap. This application is used by thousands of businesses to manage their sales, recieve payments, monitor transactions and muc more.'
 }
 
 const therecroom = {
@@ -37,9 +46,10 @@ const Portfolio = () => {
                     <h5 className="text-subtitle font-subtitle">PORTFOLIO</h5>
                     <h2 className="text-title font-title text-10xl">MY PROJECTS</h2>
                 </div>
-                <Project title={dumpsterfire.title} link={dumpsterfire.link} image={dumpsterfire.image} github={dumpsterfire.github} color={dumpsterfire.color} skills={dumpsterfire.skills} description={dumpsterfire.description} />
-                <ProjectAlt title={foodies.title} link={foodies.link} image={foodies.image} color={foodies.color} skills={foodies.skills} description={foodies.description}/>
-                <Project title={therecroom.title} link={therecroom.link} image={therecroom.image} github={therecroom.github} color={therecroom.color} skills={therecroom.skills} description={therecroom.description} />
+                <Project {...dumpsterfire} />
+                <ProjectAlt {...paguelofacil}/>
+                <Project {...therecroom}/>
+                <ProjectAlt {...foodies} />
             </div>
             <h1 className="absolute inset-y-1/3 -right-1/2 text-60xl font- opacity-5 leading-extra-none bgText">PORTFOLIO</h1>
         </div>
