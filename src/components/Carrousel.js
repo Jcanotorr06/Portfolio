@@ -192,6 +192,66 @@ const Tags = () =>{
                     padding: '1rem'
                     }}
                 />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/redux.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/graphql.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/supabase.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/bootstrap.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/materialui.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
+                <img
+                    src="https://raw.githubusercontent.com/Jcanotorr06/images/main/Skills/python.png"
+                    style={{
+                    display: 'block',
+                    maxHeight: '50%',
+                    margin: 'auto',
+                    maxWidth: '100%',
+                    padding: '1rem'
+                    }}
+                />
             </Carousel>
         </div>
     )
